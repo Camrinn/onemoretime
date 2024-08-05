@@ -1,0 +1,50 @@
+/* HeroSection.css */
+
+.hero-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    position: relative; /* Positioning context for absolute children */
+}
+
+.hero-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-content {
+    display: flex; /* Use flexbox for the content */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    gap: 50px; /* Space between the image and text */
+    z-index: 1; /* Ensure content is above the video */
+}
+
+.hero-container h1 {
+    color: #fff;
+    font-size: 100px;
+    margin: 0;
+}
+
+.hero-container p {
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 110px;
+}
+
+.hero-image {
+    width: 150px; /* Set the width of the circular image */
+    height: 150px; /* Set the height of the circular image */
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Ensure content does not overflow */
+    border: 5px solid #fff; /* Optional: border to make the image stand out */
+}
