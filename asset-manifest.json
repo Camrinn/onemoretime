@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Camrinn/onemoretime/static/css/main.1c045cbe.css",
+    "main.js": "/Camrinn/onemoretime/static/js/main.ac217dcd.js",
+    "static/js/453.4fe84d61.chunk.js": "/Camrinn/onemoretime/static/js/453.4fe84d61.chunk.js",
+    "static/media/img-7.jpg": "/Camrinn/onemoretime/static/media/img-7.dfeef5257053ba651d89.jpg",
+    "static/media/profile1.jpg": "/Camrinn/onemoretime/static/media/profile1.afc36e096a2b14793bf7.jpg",
+    "static/media/slick.svg": "/Camrinn/onemoretime/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Camrinn/onemoretime/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Camrinn/onemoretime/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Camrinn/onemoretime/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Camrinn/onemoretime/index.html",
+    "main.1c045cbe.css.map": "/Camrinn/onemoretime/static/css/main.1c045cbe.css.map",
+    "main.ac217dcd.js.map": "/Camrinn/onemoretime/static/js/main.ac217dcd.js.map",
+    "453.4fe84d61.chunk.js.map": "/Camrinn/onemoretime/static/js/453.4fe84d61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c045cbe.css",
+    "static/js/main.ac217dcd.js"
+  ]
+}
