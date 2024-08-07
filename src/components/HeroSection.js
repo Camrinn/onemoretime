@@ -11,7 +11,7 @@ function HeroSection() {
                     <h1>Cam's Life</h1>
                     <p>On the Web</p>
                 </div>
-                <img src={`${process.env.PUBLIC_URL}/images/profile.jpg`} alt="Circular" className="hero-image" />
+                <img src={`${process.env.PUBLIC_URL}/images/profile3.jpg`} alt="Circular" className="hero-image" />
             </div>
         </div>
     );
