@@ -1,5 +1,5 @@
-import React from 'react'
-import CardItem from './CardItem'
+import React from 'react';
+import CardItem from './CardItem';
 import './Cards.css';
 
 function Cards() {
@@ -10,13 +10,13 @@ function Cards() {
          <div className="cards__wrapper">
             <ul className='cards__items'>
                 <CardItem 
-                src="images/img-21.jpg"
+                src={`${process.env.PUBLIC_URL}/images/img-21.jpg`}
                 text="Explored The World"
                 label="Adventure"
                 path='/photo-gallery'
                 />
-                  <CardItem 
-                src="images/coding2.jpg"
+                <CardItem 
+                src={`${process.env.PUBLIC_URL}/images/coding2.jpg`}
                 text="Built a Few Websites"
                 label="Work"
                 path='/services'
@@ -24,19 +24,19 @@ function Cards() {
             </ul> 
             <ul className='cards__items'>
                 <CardItem 
-                src="images/dj2.jpg"
+                src={`${process.env.PUBLIC_URL}/images/dj2.jpg`}
                 text="Learned to DJ"
                 label="Music"
                 path='/services'
                 />
-                  <CardItem 
-                src="images/marathon.jpg"
+                <CardItem 
+                src={`${process.env.PUBLIC_URL}/images/marathon.jpg`}
                 text="Ran a Few Races"
                 label="Running"
                 path='/services'
                 />
-                  <CardItem 
-                src="images/projects.jpg"
+                <CardItem 
+                src={`${process.env.PUBLIC_URL}/images/projects.jpg`}
                 text="Upcoming Projects"
                 label="Unknown"
                 path='/services'
@@ -48,4 +48,4 @@ function Cards() {
   );
 }
 
-export default Cards
+export default Cards;
